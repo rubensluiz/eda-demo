@@ -46,7 +46,7 @@ data:
     receivers:
     - name: 'EDA'
       webhook_configs:
-      - url: 'http://10.250.2.6:5050'
+      - url: 'http://10.250.2.6:5050/prometheus'
 ---
 apiVersion: v1
 kind: Pod
